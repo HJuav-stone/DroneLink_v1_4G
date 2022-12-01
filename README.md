@@ -14,7 +14,7 @@
   3. 可調整 startup.sh 增加 udp 或 tcp 等 port 按需求調整
   4. 4G 連線 可調整 APN ,預設APN 為 internet
   透過登入Pi 輸入  
-  'sudo nano /etc/ppp/peers/4GLTE' 
+  `sudo nano /etc/ppp/peers/4GLTE`
   
   
 
