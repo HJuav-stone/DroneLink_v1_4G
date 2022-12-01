@@ -12,9 +12,15 @@
   1. 可 wifi 連線drone link  ssid :HJ_Dronelink pawwsord:12345678
   2. 透過 putty 連線 輸入 static ip 進行連線 user : pi password :123456
   3. 可調整 startup.sh 增加 udp 或 tcp 等 port 按需求調整
-  4. 4G 連線 可調整 APN ,預設APN 為 internet
+  "mavproxy.py --master=/dev/device1  --out=udpin:0.0.0.0:14550 --out=tcpin:0.0.0.0:5760 " # 可再增加依照此寫法 --out=udpin:0.0.0.0:14551 ... 增加
+  5. 4G 連線 可調整 APN ,預設APN 為 internet
   透過登入Pi 輸入  
   `sudo nano /etc/ppp/peers/4GLTE`
+  調整 如下圖  
+  ![image](https://user-images.githubusercontent.com/104482291/205024995-2dcfd137-d852-44cf-8135-1ecbcf309394.png)
+  框起來這行之 -T + internet 把 internet 改成想變之APN
+  
+  
   
   
 
