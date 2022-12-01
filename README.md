@@ -1,7 +1,7 @@
 # DroneLink_v1_4G
 ## 簡介
   ** 此版本為 4G固定IP 使用方式 提供基本數傳/圖傳功能 (相機必須為 IPCAM)
-  1. 樹莓派映像檔下載連結(google link )
+  1. [樹莓派映像檔下載連結](https://drive.google.com/file/d/19xRUBxFQBQ30wtv2cNePWVmsS-2G2PHl/view?usp=share_link)
   2. 樹莓派硬體: pi3/4
   3. 硬體連接方式 : 
       1.1. 樹莓派透過 ＵＳＢ轉　ＵＡＲＴ連接飛控之 Telem2孔位，　baudrate = 57600 (需確定)
