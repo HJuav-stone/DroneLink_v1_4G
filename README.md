@@ -4,8 +4,8 @@
   1. [樹莓派映像檔下載連結](https://drive.google.com/file/d/19xRUBxFQBQ30wtv2cNePWVmsS-2G2PHl/view?usp=share_link)
   2. 樹莓派硬體: pi3/4
   3. 硬體連接方式 : 
-      1.1. 樹莓派透過 ＵＳＢ轉　ＵＡＲＴ連接飛控之 Telem2孔位，　baudrate = 57600 (需確定)
-      1.2. IPCAM 之 ip 需設定成 10.3.141.50 才可以使用 , 在透過 ethernet 與樹莓派之ethernet 連接
+      1-1. 樹莓派透過 ＵＳＢ轉　ＵＡＲＴ連接飛控之 Telem2孔位，　baudrate = 57600 (需確定)
+      1-2. IPCAM 之 ip 需設定成 10.3.141.50 才可以使用 , 在透過 ethernet 與樹莓派之ethernet 連接
   4. dongle 確認有連上網路後 即可用 dongle 之IP  來連線 , 數傳提供 udp : static ip:14550 / tcp :static ip : 5760  圖傳提供 rtsp://static:554 之通道
   
 ## 軟體調整方式
