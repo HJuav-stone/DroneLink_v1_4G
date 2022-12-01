@@ -18,7 +18,7 @@
   `sudo nano /etc/ppp/peers/4GLTE`
   調整 如下圖  
   ![image](https://user-images.githubusercontent.com/104482291/205024995-2dcfd137-d852-44cf-8135-1ecbcf309394.png)
-  框起來這行之 -T + internet 把 internet 改成想變之APN
+  框起來這行之 -T internet 把 internet 改成想變之APN
   
   
   
