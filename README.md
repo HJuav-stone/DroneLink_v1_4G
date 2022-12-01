@@ -7,6 +7,9 @@
       1. 樹莓派透過 ＵＳＢ轉　ＵＡＲＴ連接飛控之 Telem2孔位，　baudrate = 57600 (飛控需確定為此設定)
       2. IPCAM 之 ip 需設定成 10.3.141.50 才可以使用 , 在透過 ethernet 與樹莓派之ethernet 連接
   4. dongle 確認有連上網路後 即可用 dongle 之IP  來連線 , 數傳提供 udp : static ip:14550 / tcp :static ip : 5760  圖傳提供 rtsp://static:554 之通道
+  連接方式如下圖 ,樹莓派上之 USB孔已綁定 需如圖安裝 
+  ![image](https://user-images.githubusercontent.com/104482291/205032470-60d73505-c9ab-4537-8b9a-f8bd7f641839.png)
+
   
 ## 軟體調整方式
   1. 可 wifi 連線drone link  ssid :HJ_Dronelink pawwsord:12345678
